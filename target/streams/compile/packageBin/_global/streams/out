@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jcher2/Documents/scala_spark/target/scala-2.12/simpleapp_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/scala_spark/target/scala-2.12/classes/foo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foo/bar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/scala_spark/target/scala-2.12/classes/foo/bar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foo/bar/baz[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/scala_spark/target/scala-2.12/classes/foo/bar/baz[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foo/bar/baz/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/scala_spark/target/scala-2.12/classes/foo/bar/baz/SimpleApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	foo/bar/baz/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jcher2/Documents/scala_spark/target/scala-2.12/classes/foo/bar/baz/SimpleApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
