@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { docker {image 'amazon/aws-cli:latest'}}
     stages {
         stage('production') {
             steps {
