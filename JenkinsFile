@@ -1,0 +1,11 @@
+pipeline {
+    agent { docker {image 'amazon/aws-cli:latest'}}
+    stages {
+        stage('production') {
+            steps {
+		   git(url: 'https://github.com/manueca/scala-spark-projects.git', branch: 'master', credentialsId: '170f7c8a-8734-4b5a-87f9-d6bf9d6650f3')
+                   sh 'aws s3 cp build.sbt s3://quality-frame-work/jenkins_code_build/  '	
+                }
+            }
+        }
+    }
