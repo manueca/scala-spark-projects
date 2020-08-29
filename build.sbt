@@ -1,12 +1,14 @@
-name := "SimpleApp"
+name := "qaFrameWork"
 
-version := "1.0"
+version := "1.0.11"
 
-scalaVersion := "2.12.10"
+scalaVersion := "2.11.12"
 
-val sparkVersion = "3.0.0"
+val spark_kinesis_version = "2.2.0"
+
+val sparkVersion = "2.4.4"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
-  "org.apache.spark" %% "spark-streaming" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
 )
