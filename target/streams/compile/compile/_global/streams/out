@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/jcher2/Documents/qa-framework-scala/src/main/scala/qa_framework_main.scala:6:8: not found: object src[0m
+[0m[[0m[31merror[0m] [0m[0mimport src.main.scala.qa_framework_functions._ [0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jcher2/Documents/qa-framework-scala/src/main/scala/qa_framework_main.scala:45:26: not found: value quality_parameter_extraction[0m
+[0m[[0m[31merror[0m] [0m[0m		        var result_set=quality_parameter_extraction(spark,id,dag_exec_dt)[0m
+[0m[[0m[31merror[0m] [0m[0m		                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jcher2/Documents/qa-framework-scala/src/main/scala/qa_framework_main.scala:64:25: not found: value get_kpi_val[0m
+[0m[[0m[31merror[0m] [0m[0m			        var kpi_val= get_kpi_val(spark,query,environment)[0m
+[0m[[0m[31merror[0m] [0m[0m			                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
